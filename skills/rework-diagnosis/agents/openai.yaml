@@ -1,0 +1,4 @@
+interface:
+  display_name: "返工诊断与修改验收"
+  short_description: "把含糊反馈转成最小改动，保留已确认内容，并核对修改是否生效"
+  default_prompt: "请用 $rework-diagnosis 核对这次反馈和当前版本，保留已确认内容，按当前请求与已有授权交付诊断或完成最小修正并验证。"

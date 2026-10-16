@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pinterest搜索入口"
+  short_description: "把需求拆成真正不同的英文搜索方向，生成可点击入口供用户自行浏览筛选"
+  default_prompt: "用 $pinterest-search-links 把我的需求拆成真正不同的英文搜索方向，只给Pinterest搜索入口，让我自己浏览筛选。"

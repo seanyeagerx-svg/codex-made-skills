@@ -1,0 +1,6 @@
+interface:
+  display_name: "歧义核对"
+  short_description: "只在关键理解分叉时核对来源，说明不同走向，只问一个问题并结束本轮"
+  default_prompt: "使用 $request-restate 核对当前请求；仅在存在会改变结果的关键歧义，或我明确要求先复述时，说明已知内容与具体分叉，只问一个问题并停止，否则直接处理。"
+policy:
+  allow_implicit_invocation: true

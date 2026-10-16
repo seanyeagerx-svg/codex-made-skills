@@ -1,0 +1,4 @@
+interface:
+  display_name: "精选筛选器"
+  short_description: "从广泛候选中筛出适合你的作品与方案，区分证据、偏好和可实现性"
+  default_prompt: "使用 $research-curator，按我的需求筛选参考或方案，先确认筛选单位和硬条件，再给我有证据、有差异的短名单。"
